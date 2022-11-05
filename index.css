@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 60;
+    box-sizing: border-box;
+    
+    }
+    body{
+        background-color: #F9F6EE;
+    }
+    h1{
+    text-align: center;
+    color:#E30B5C	;
+    padding: 20px;
+    font-size: 64px;
+    font-family: 'Caveat', cursive;
+    
+    }
+    nav{
+    background-color: #F8C8DC;
+    display: grid;
+    place-items: center;
+    
+    }
+    nav ul{
+    list-style-type: none;
+    }
+    nav ul a{
+    display: inline-block;
+    padding: 20px  40px;
+    color: #000;
+    transition: all 0.5s ease-in;
+    text-decoration: none;
+    font-size: 28px;
+    border-right: 1px solid #E30B5C;
+    font-family: 'Caveat', cursive;
+    }
+    nav ul a:hover{
+    background-color: #E30B5C;
+    color: white;
+    }
+    .items{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    padding: 30px 10px;
+    grid-column-gap: 5px;
+    grid-row-gap: 30px;
+    }
+    .item{
+        text-align: center;
+    }
+    .item img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    border-radius: 50%;
+    }
+    .item img:hover{
+    transform:scale(1.05);
+    }
+    .item h4{
+    padding:5px;
+    text-align:center;
+    }
+    .item button{
+    padding: 6px 30px;
+    border: none;
+    outline: none;
+    background-color: #F8C8DC;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: all 0.15s ease-in-out;
+    text-align:center;
+    Display: block;
+    margin: 10px auto;
+    
+    }
+    .item button:hover{
+    background-color: #E30B5C;
+    color:white;
+    transform:scale(1.05);
+    }
+    @media screen and (max-width: 1200px) {
+    .items{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+    }
+    @media screen and (max-width: 800px) {
+    .items{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    }
+
+    #heading{
+        
+            text-align: center;
+            color:#E30B5C	;
+            padding: 20px;
+            font-size: 64px;
+            font-family: 'Caveat', cursive;
+            
+            
+    }
+
+    .all-items{
+        padding: 20px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    .item-names{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 20px;
+    }
+    .item-names .img{
+        padding:5px;
+    }
+
+    .item-names .price{
+       padding:5px;
+    }
+   
+   a{
+    text-decoration: none;
+   }
+   .gg{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   }

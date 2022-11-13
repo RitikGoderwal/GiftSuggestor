@@ -144,3 +144,19 @@
     text-align: center;
     justify-content: center;
    }
+
+   .buy{
+    background-color: #F8C8DC;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 80px;
+  }
+
+   .buy:hover{
+
+     background-color: #E30B5C;
+     color: #F9F6EE;
+     border: none;
+     border-radius: 10px;
+   }

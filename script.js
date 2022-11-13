@@ -1,6 +1,7 @@
 const container=document.getElementById('items-container');
 
 
+
 function him() {
     const heading=document.getElementById('heading');
     heading.innerHTML="Gifts for Men";
